@@ -26,7 +26,7 @@ function TodoHead() {
     return (
         <TodoHeadBlock>
            <h1>2023년 3월 6일</h1>
-           <div className="day">수요일</div>
+           <div className="day">월요일</div>
            <div className="task-left">할 일 2개 남음</div> 
         </TodoHeadBlock>
     );
