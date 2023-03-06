@@ -17,7 +17,7 @@ function TodoList(props) {
     <TodoListBlock>
       {todos.map((todo) => (
         <TodoItem
-          key={todo.key}
+          key={todo.id}
           id={todo.id}
           done={todo.done}
           text={todo.text}
